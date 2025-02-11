@@ -1,0 +1,34 @@
+html{
+	font-size: 62.5%;
+	box-size: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+	font-size: 16px;
+	background-color: #2f4f30;
+	color: white;
+}
+
+.titulo{
+	text-align: center;
+	background-color: black;
+	padding: 2rem;
+	font-size: 2.5rem;
+}
+
+.carta{
+	position: relative;
+	width: 15rem;
+	left:10rem;
+	margin-left: -7.5rem;
+}
+
+#jugador-cartas,
+#computadora-cartas{
+	height: 24rem;
+}
+
